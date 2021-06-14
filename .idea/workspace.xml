@@ -1,8 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1dd25572-b1eb-4e9e-b881-b6cdd7cdab06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/1.js" afterDir="false" />
+    <list default="true" id="1dd25572-b1eb-4e9e-b881-b6cdd7cdab06" name="Default Changelist" comment="dfsrgre">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Acme-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/AndroidPay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ApplePay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Chart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Instagram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/PayPal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/SamsungPay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Twitter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/airbnb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/airbnb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/big-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/burger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/chart-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cisco.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cisco.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cnn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cnn.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ebay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ebay.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fearture_one.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/feature_two.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/google.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/google.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/header_star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/lines-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/link_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/list_checkbox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo90_24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/other-Icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/phone-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/play-button.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/telegram_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/uber.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/uber.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/video-block.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +65,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="ProjectId" id="1tkdS7lCH8iY3rIzCciyPjd2O6R" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -31,6 +77,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -80,8 +127,18 @@
       <workItem from="1623317479098" duration="138000" />
       <workItem from="1623317665870" duration="156000" />
       <workItem from="1623317897599" duration="5761000" />
-      <workItem from="1623346046569" duration="190000" />
+      <workItem from="1623346046569" duration="557000" />
+      <workItem from="1623396295691" duration="5459000" />
+      <workItem from="1623661291323" duration="2817000" />
     </task>
+    <task id="LOCAL-00001" summary="dfsrgre">
+      <created>1623346263118</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623346263118</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,5 +154,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dfsrgre" />
+    <option name="LAST_COMMIT_MESSAGE" value="dfsrgre" />
   </component>
 </project>
