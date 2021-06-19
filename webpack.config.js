@@ -15,6 +15,13 @@ module.exports = {
                 'css-loader',
                 'sass-loader',
             ]
+        },
+        {
+            test: /\.(png|jpg|jpeg|svg|ttf|eot|woff|woff2)$/,
+            loader: 'file-loader',
+            options: {
+                name: '[path][name].[ext]'
+            }
         }]
     },
     plugins: [
