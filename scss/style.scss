@@ -13,6 +13,10 @@ $accent_red: #f0145a;
 $text_grey: #b3b3ba;
 $gradient: linear-gradient(90.13deg, #ef8080 0.84%, #f0145a 99.96%);
 $active: #24a3ff;
+$screenSizeL: 1130px;
+$screenSizeM: 950px;
+$screenSizeS: 750px;
+
 .flex {
   display: flex;
   justify-content: flex-start;
@@ -40,7 +44,7 @@ $active: #24a3ff;
     position: absolute;
     content: '';
     height: 10px;
-    width: 97%;
+    width: calc(100% - 40px);
     top: 100%;
     margin: 0 20px;
     background: #cacadb;
@@ -51,7 +55,7 @@ $active: #24a3ff;
     position: absolute;
     content: '';
     height: 20px;
-    width: 94%;
+    width: calc(100% - 80px);
     top: 100%;
     margin: 0 40px;
     background: #e7e7f2;
@@ -71,9 +75,22 @@ $active: #24a3ff;
   width: 100%;
   z-index: 300;
   background: linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+  @media screen and (max-width: $screenSizeM ){
+    padding: 20px;
+  }
 }
 .header_nav {
+  &-logo {
+    display: block;
+    img {
+      width: 155px;
+      height: 62px;
+    }
 
+  }
+    &-hamburger {
+      display: none;
+  }
   &-info {
     width: 565px;
     font-size: 16px;
@@ -156,11 +173,51 @@ $active: #24a3ff;
       fill: white;
     }
   }
+  @media screen and (max-width: $screenSizeM ){
+        & {
+          flex-direction: column-reverse;
+            &-logo {
+              img {
+                width: 78px;
+                height: 31px;
+              }
+            }
+            &-hamburger {
+              display: block;
+              width: 32px;
+              height: 32px;
+            }
+          &-info {
+            margin-bottom: 20px;
+            width: 100%;
+            color: $text_grey;
+            a {
+              color: $text_grey;
+            }
+            &-addr {
+              display: none;
+            }
+            &-social {
+              display: none;
+            }
+            &-tel {
+
+              &::before, &::after {
+                display: none;
+              }
+            }
+            &-menu {
+                display: none;
+            }
+          }
+        }
+  }
 }
 .splash {
   position: relative;
   height: 800px;
   z-index: 30;
+  overflow: hidden;
   &-gradient {
     position: absolute;
     bottom: 0;
@@ -205,6 +262,14 @@ $active: #24a3ff;
       }
     }
   }
+  @media screen and (max-width: $screenSizeM ){
+   & {
+     &-bg {
+       background: none;
+
+     }
+   }
+  }
 }
 .experience {
   padding: 80px 170px 80px 60px;
@@ -231,6 +296,9 @@ $active: #24a3ff;
     padding-left: 40px;
     width: 60%;
     color: white;
+    &-link {
+      display: none;
+    }
     &-head {
       font-size: 32px;
       line-height: 38px;
@@ -240,6 +308,48 @@ $active: #24a3ff;
       margin-top: 20px;
       font-size: 21px;
       line-height: 30px;
+    }
+  }
+  @media screen and (max-width: $screenSizeL ){
+    & {
+      padding: 20px;
+      &-style {
+        display: none;
+      }
+      &-info {
+        padding-left: 0;
+        width: 90%;
+        &-head {
+          font-size: 22px;
+          line-height: 26px;
+        }
+        &-link {
+          display: block;
+          margin-bottom: 10px;
+          font-size: 14px;
+          line-height: 17px;
+          font-weight: 700;
+          text-transform: uppercase;
+          background-image: $gradient;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+
+        }
+        &-text {
+          font-size: 18px;
+          line-height: 26px;
+        }
+      }
+    }
+  }
+}
+.experiece_carusel {
+  display: none;
+  width: 120px;
+  margin: 0 auto 20px auto;
+  @media screen and (max-width: $screenSizeL ){
+    & {
+      display: block;
     }
   }
 }
@@ -284,6 +394,29 @@ $active: #24a3ff;
         font-size: 18px;
         line-height: 26px;
         color: white;
+      }
+    }
+  }
+  @media screen and (max-width: $screenSizeL ) {
+    & {
+      &-advantages {
+        font-size: 32px;
+        line-height: 38px;
+      }
+      &-grid {
+        margin-top: 30px;
+        &-item {
+          width: 45%;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: $screenSizeS ) {
+    & {
+      &-grid {
+        &-item {
+          width: 100%;
+        }
       }
     }
   }
@@ -343,6 +476,25 @@ $active: #24a3ff;
       background: #000;
     }
   }
+  @media screen and (max-width: $screenSizeL ) {
+    & {
+    &-grid {
+      &-item {
+        width: 33.33%;
+        height: 90px;
+      }
+    }
+  }
+  }
+  @media screen and (max-width: $screenSizeM ) {
+    & {
+      &-grid {
+        &-item {
+          width: 50%;
+        }
+      }
+    }
+  }
 }
 .team {
   margin: 60px 60px 20px 60px;
@@ -381,6 +533,32 @@ $active: #24a3ff;
       color: $text_grey;
       font-size: 16px;
       line-height: 22px;
+    }
+  }
+  @media screen and (max-width: $screenSizeL ) {
+    & {
+      margin: 40px 20px 15px 20px;
+      &-member {
+        display: none;
+      }
+      &-info {
+        &-quote {
+          font-size: 32px;
+          line-height: 38px;
+        }
+        &-avatar {
+          width: 60px;
+          height: 60px;
+          margin-right: 15px;
+          border-radius: 50%;
+          background: url("../img/team-guy.png") center center no-repeat;
+          background-size: cover;
+          float: left;
+        }
+        &-name {
+          padding-top: 8px;
+        }
+      }
     }
   }
 }
@@ -505,7 +683,7 @@ $active: #24a3ff;
     margin: 0 60px;
     display: flex;
     flex-wrap:  wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     overflow: hidden;
     height: 720px;
 
@@ -514,14 +692,8 @@ $active: #24a3ff;
       width: 414px;
       background: white;
       border-radius: 8px;
-      &:first-child {
-        margin-top: -240px;
-        height: 500px;
-      }
-      &:nth-child(4) {
-        margin-top: -220px;
 
-      }
+
 
       &-content {
         padding: 20px;
@@ -552,6 +724,40 @@ $active: #24a3ff;
       }
     }
   }
+@media screen and (max-width: $screenSizeS){
+  & {
+    &-link {
+      margin: 0 20px;
+    }
+    &-header {
+      margin: 3px 20px 20px 20px;
+      font-size: 32px;
+      line-height: 38px;
+    }
+    &-cards {
+      margin: 0 20px;
+      &-item {
+        width: 355px;
+        margin-bottom: 20px;
+        img {
+          width: 355px;
+        }
+        &-content {
+          &-date {
+            border-bottom: none;
+            padding-bottom: 0;
+          }
+          &-description {
+            display: none;
+          }
+        }
+        &:first-child {
+          margin-top: -200px;
+        }
+      }
+    }
+  }
+}
 }
 .footer {
   margin: 0 60px ;
@@ -652,8 +858,48 @@ $active: #24a3ff;
     font-size: 16px;
     line-height: 19px;
     color: $text_grey;
+  }
+  @media screen and (max-width: $screenSizeM ) {
+    & {
+      flex-direction: column;
+      margin: 0 20px;
+      padding-top: 23px;
+      padding-bottom: 100px;
+      &-info {
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        &-address {
+          margin-right: 0;
+          margin-bottom: 10px;
+        }
+        &-map {
+          margin-bottom: 20px;
+          &::before {
+            display: none;
+          }
+        }
+        &-social {
+          margin-bottom: 20px;
+        }
+        &-tel {
+          margin-bottom: 20px;
+          &::before {
+            display: none;
+          }
+        }
+        &-mailto {
+          &::before {
+            display: none;
+          }
+        }
+      }
+      &-copyright {
+        text-align: center;
+        margin-top: 20px;
+      }
 
-
-
+    }
   }
 }

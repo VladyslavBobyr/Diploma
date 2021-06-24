@@ -1,0 +1,23 @@
+$screenSizeL: 1130px;
+$screenSizeM: 950px;
+$screenSizeS: 750px;
+.header_nav {
+  &-this_page {
+    font-size: 38px;
+    line-height: 45px;
+    color: white;
+  }
+}
+.splash {
+  @media screen and (max-width: $screenSizeL ){
+    & {
+      &-bg {
+        background: none;
+
+      }
+    }
+  }
+}
+.services {
+  padding-top: 139px;
+}
