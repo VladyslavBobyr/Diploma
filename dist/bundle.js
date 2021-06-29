@@ -10,6 +10,16 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./scss/about.scss":
+/*!*************************!*\
+  !*** ./scss/about.scss ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://diploma/./scss/about.scss?");
+
+/***/ }),
+
 /***/ "./scss/services.scss":
 /*!****************************!*\
   !*** ./scss/services.scss ***!
@@ -36,7 +46,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/style.scss */ \"./scss/style.scss\");\n/* harmony import */ var _scss_services_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../scss/services.scss */ \"./scss/services.scss\");\n\n\n\n//# sourceURL=webpack://diploma/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/style.scss */ \"./scss/style.scss\");\n/* harmony import */ var _scss_services_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../scss/services.scss */ \"./scss/services.scss\");\n/* harmony import */ var _scss_about_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../scss/about.scss */ \"./scss/about.scss\");\n\n\n\n\n\n//# sourceURL=webpack://diploma/./src/index.js?");
 
 /***/ })
 
